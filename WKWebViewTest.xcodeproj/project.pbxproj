@@ -14,6 +14,7 @@
 		969E440423273C3C00D3E7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969E440223273C3C00D3E7B8 /* LaunchScreen.storyboard */; };
 		969E440F23273C3D00D3E7B8 /* WKWebViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E440E23273C3D00D3E7B8 /* WKWebViewTestTests.swift */; };
 		969E441A23273C3D00D3E7B8 /* WKWebViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E441923273C3D00D3E7B8 /* WKWebViewTestUITests.swift */; };
+		96C67C4E23277A0C001808A2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C67C4D23277A0C001808A2 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		969E441523273C3D00D3E7B8 /* WKWebViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969E441923273C3D00D3E7B8 /* WKWebViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewTestUITests.swift; sourceTree = "<group>"; };
 		969E441B23273C3D00D3E7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C67C4D23277A0C001808A2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C67C4E23277A0C001808A2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				969E440D23273C3D00D3E7B8 /* WKWebViewTestTests */,
 				969E441823273C3D00D3E7B8 /* WKWebViewTestUITests */,
 				969E43F723273C3A00D3E7B8 /* Products */,
+				96C67C4C23277A0C001808A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				969E441B23273C3D00D3E7B8 /* Info.plist */,
 			);
 			path = WKWebViewTestUITests;
+			sourceTree = "<group>";
+		};
+		96C67C4C23277A0C001808A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C67C4D23277A0C001808A2 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
