@@ -15,6 +15,7 @@
 		969E440F23273C3D00D3E7B8 /* WKWebViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E440E23273C3D00D3E7B8 /* WKWebViewTestTests.swift */; };
 		969E441A23273C3D00D3E7B8 /* WKWebViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E441923273C3D00D3E7B8 /* WKWebViewTestUITests.swift */; };
 		96C67C4E23277A0C001808A2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C67C4D23277A0C001808A2 /* WebKit.framework */; };
+		96C67C5E23278E2B001808A2 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 96C67C5D23278E2B001808A2 /* web */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		969E441923273C3D00D3E7B8 /* WKWebViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewTestUITests.swift; sourceTree = "<group>"; };
 		969E441B23273C3D00D3E7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C67C4D23277A0C001808A2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		96C67C5D23278E2B001808A2 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				969E440023273C3C00D3E7B8 /* Assets.xcassets */,
 				969E440223273C3C00D3E7B8 /* LaunchScreen.storyboard */,
 				969E440523273C3C00D3E7B8 /* Info.plist */,
+				96C67C5D23278E2B001808A2 /* web */,
 			);
 			path = WKWebViewTest;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				969E440423273C3C00D3E7B8 /* LaunchScreen.storyboard in Resources */,
+				96C67C5E23278E2B001808A2 /* web in Resources */,
 				969E440123273C3C00D3E7B8 /* Assets.xcassets in Resources */,
 				969E43FF23273C3A00D3E7B8 /* Main.storyboard in Resources */,
 			);
